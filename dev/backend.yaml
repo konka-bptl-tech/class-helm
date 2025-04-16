@@ -46,8 +46,8 @@ hpa:
 service:
   port: 8080
 
-ingress:
-  enabled: false
+# ingress:
+#   enabled: false
 
 secrets:
   enabled: true
