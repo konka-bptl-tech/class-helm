@@ -16,7 +16,7 @@ resources:
 health_check:
   path: /health
 probes:
-  enabled: true
+  enabled: false
   liveness:
     initialDelaySeconds: 10
     periodSeconds: 10
